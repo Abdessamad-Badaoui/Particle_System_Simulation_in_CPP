@@ -1,0 +1,11 @@
+# Créer un executable à partir de fichiers sources
+add_executable(demo_systeme_solaire demo_systeme_solaire.cxx)
+target_link_libraries(demo_systeme_solaire univers)
+add_executable(test_univers_charge test_univers_charge.cxx)
+target_link_libraries(test_univers_charge univers)
+add_executable(test_univers_grille test_univers_grille.cxx)
+target_link_libraries(test_univers_grille univers)
+add_executable(demo_univers_2d demo_univers_2d.cxx)
+target_link_libraries(demo_univers_2d univers)
+add_executable(demo_collision_gravitation demo_collision_gravitation.cxx)
+target_link_libraries(demo_collision_gravitation univers)

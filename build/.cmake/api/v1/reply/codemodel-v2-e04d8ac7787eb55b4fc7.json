@@ -1,0 +1,371 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						10,
+						11,
+						17
+					]
+				},
+				{
+					"build" : "doc",
+					"jsonFile" : "directory-doc-Release-00ee67dbe228fd23eb89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "doc"
+				},
+				{
+					"build" : "demo",
+					"jsonFile" : "directory-demo-Release-43f51860c252c59bb5b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demo",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-Release-325181791364522dc3de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Release-6213b6c096cf5e704555.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock/gtest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock.gtest-Release-6df5839e2c5e7badae25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "build/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						7
+					],
+					"name" : "project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cellule::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cellule-Release-8ecccf66e48b2134ea68.json",
+					"name" : "cellule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "demo_collision_gravitation::@7f23e6ca181cc91d5724",
+					"jsonFile" : "target-demo_collision_gravitation-Release-d7108f5da22ce0aa3788.json",
+					"name" : "demo_collision_gravitation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "demo_systeme_solaire::@7f23e6ca181cc91d5724",
+					"jsonFile" : "target-demo_systeme_solaire-Release-e9057064d72c0a411f86.json",
+					"name" : "demo_systeme_solaire",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "demo_univers_2d::@7f23e6ca181cc91d5724",
+					"jsonFile" : "target-demo_univers_2d-Release-521a5b236861ebb0620b.json",
+					"name" : "demo_univers_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc-Release-845989e9c94c59081213.json",
+					"name" : "doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fast_exponentiation::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fast_exponentiation-Release-b09f2f6f800a051e7bc1.json",
+					"name" : "fast_exponentiation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Release-4be24ce0204cd02ecdbd.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Release-edfdfbfeb2d2674960b7.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@71a619b31770789839fd",
+					"jsonFile" : "target-gtest-Release-18b82d7238fbb2854cd3.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@71a619b31770789839fd",
+					"jsonFile" : "target-gtest_main-Release-67d082b74f391fabaa40.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "particules::@145eef247bfb46b6828c",
+					"jsonFile" : "target-particules-Release-b8dfc262b212609f0fe8.json",
+					"name" : "particules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "point::@145eef247bfb46b6828c",
+					"jsonFile" : "target-point-Release-7874d9359760c3969bbc.json",
+					"name" : "point",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_fast_exponentiation::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_fast_exponentiation-Release-3b8f9426f3fce4ede1ea.json",
+					"name" : "test_fast_exponentiation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_grille::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_grille-Release-6cbcba7c3d7be21aaf94.json",
+					"name" : "test_grille",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_point::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_point-Release-7eb79948d9742bbc9846.json",
+					"name" : "test_point",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_univers_charge::@7f23e6ca181cc91d5724",
+					"jsonFile" : "target-test_univers_charge-Release-763885382332dfe78b8f.json",
+					"name" : "test_univers_charge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_univers_grille::@7f23e6ca181cc91d5724",
+					"jsonFile" : "target-test_univers_grille-Release-10cfed84c1213e32fea0.json",
+					"name" : "test_univers_grille",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "univers::@145eef247bfb46b6828c",
+					"jsonFile" : "target-univers-Release-abd9382d06d5b236d0c0.json",
+					"name" : "univers",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nasr-allah/MMIS-2a/Semestre2/C++/4_Decoupage_Espace_copy/build",
+		"source" : "/home/nasr-allah/MMIS-2a/Semestre2/C++/4_Decoupage_Espace_copy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
